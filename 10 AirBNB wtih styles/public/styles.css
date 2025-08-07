@@ -1,0 +1,6 @@
+/* If we directly use css in homes our client cantt access this css file so no style since this files are private
+we can solve this by making it public
+*/
+h1 {
+  color:  red;
+}
