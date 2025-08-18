@@ -27,7 +27,7 @@ app.use(express.static(path.join(rootDir, "public")));
 app.use(homeController.error);
 
 const PORT = 3009;
-const DB_PATH = "fillon";
+const DB_PATH = "mongodb+srv://sana:sana@deecluster.rps2fdq.mongodb.net/?retryWrites=true&w=majority&appName=DeeCluster";
 
 //mongoose connection and no need for databaseUTil anymore
 mongoose.connect(DB_PATH).then(() => {
